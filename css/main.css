@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap");
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow-x: hidden;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;    
+}
+.navbar-container {
+    width: 100%;
+    height: 5rem;
+    padding: 8px 16px;
+    background-color: #ffc107;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.1);
+    z-index: 2;
+}
+.links ul {
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
+}
+.links li {
+    list-style-type: none;
+    padding: 8px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700!important;
+}
+.links a {
+    text-decoration: none;
+    color: #8d6a03;
+}
+.links a:hover {
+    color: #584303;
+}
+.links a:enabled {
+    color: black;
+}
+#logo-bar {
+    width: 300px;
+    margin-right: 1rem;
+    display: flex;
+    align-self: center;
+}
+.links {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    color: rgba(0,0,0,.5);
+}
+.main-container {
+    padding-top: 96px;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient( rgba(52, 58, 64, 0.9), rgb(52, 58, 64, 0.9) ), url("../Assets/simon-connellan-TQZlo6cC4s0-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.left-container {
+    width: 100vw;
+    transform: translateX(-1rem);
+}
+.header-button {
+    padding: 0px 15px;
+    margin: 2.5rem 0;
+}
+.left-container h1 {
+    margin: 0px 0px 8px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700!important;color:#ffc107!important;
+}
+.left-container button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    border: 1rem;
+    border-color: #ffc107;
+    background-color: #ffc107!important;
+    color: #343a40!important;
+    font-size: 1rem;
+    font-weight: 700!important;
+    text-transform: uppercase;
+}
+.right-container {
+    position: relative;
+    width: 150%;
+    height: 100vh;
+    left: 7rem;
+    background: #f2c010;
+    transform: skewX(-20deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-button-container {
+    transform: translate(5rem , -1.5rem);
+}
+.logo-text-container {
+    transform: skew(20deg , 0deg) translate(1rem , -3rem);
+}
+.logo-text {
+    width: 75%;
+    text-align: right;
+}
+.logo-text p {
+    width: 100%;
+    margin: 16px 0px;
+    text-align: right;
+    color: #343a40!important;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
+.new-roads {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( rgba(52, 58, 64, 0.9), rgb(52, 58, 64, 0.9) ), url(../Assets/braden-collum-ttbCwN_mWic-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-container {
+    padding: 3rem;
+    background-color: #f2c010;
+}
+.text-button {
+    text-align: center;
+}
+.center-text h1 {
+    margin: 0px 0px 8px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700!important;
+    text-align: center;
+    color:black!important;
+}
+.center-text p {
+    width: 100%;
+    margin: 0px 0px 48px;
+    text-align: right;
+    color: #343a40!important;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+}
+.center-container button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    border: 1rem;
+    border-color: #343a40;
+    background-color: #343a40!important;
+    color: #ffc107!important;
+    font-size: 0.9rem;
+    font-weight: 700!important;
+    text-transform: uppercase;
+}
